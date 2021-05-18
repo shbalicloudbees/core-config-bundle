@@ -1,4 +1,4 @@
-@Library('my-shared-libraries@master') _
+library 'my-shared-libraries@master'
 pipeline {
   agent none
   options {
