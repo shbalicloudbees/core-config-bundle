@@ -50,8 +50,9 @@ unclassified:
         modernSCM:
           scm:
             github:
-              credentialsId: "cbdays-github-username-pat"
-              repoOwner: "gregavsyuk"
+              credentialsId: "jenkins-github-shbali"
+              id: "f5bf1676-696b-4c04-9a4e-f40e70f09840"
+              repoOwner: "shbalicloudbees"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -62,6 +63,7 @@ unclassified:
 credentials:
   system:
     domainCredentials:
+    
       - domain :
           name: "github.com"
           description: "GitHub"
@@ -70,10 +72,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "{AQAAABAAAAAwXWoHuWo3km5Wb3MrulwxA1gSJv64PlqgFsoDdEQdqYTyqladYtc8KMeCF/f/G8efOI3yjYZkUTg0Zb0J/b5GSQ==}"
+              secret: "{AQAAABAAAAAwGhfpod2jTL7H9ow/N1iUxRZDkPCHk3RUi3iWi89Qo9wHgN857dIJSmQxSsjgQGQZjMy6ZTi28eYQW+N7W7dicw==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "avsyug"
-              password: "{AQAAABAAAAAwXWoHuWo3km5Wb3MrulwxA1gSJv64PlqgFsoDdEQdqYTyqladYtc8KMeCF/f/G8efOI3yjYZkUTg0Zb0J/b5GSQ==}"
+              username: "shbalicloudbees"
+              password: "{AQAAABAAAAAwGhfpod2jTL7H9ow/N1iUxRZDkPCHk3RUi3iWi89Qo9wHgN857dIJSmQxSsjgQGQZjMy6ZTi28eYQW+N7W7dicw==}"
